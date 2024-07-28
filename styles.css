@@ -1,0 +1,179 @@
+
+/*redes navbar*/
+.redes{
+    font-size: 24px;
+}
+
+.carrito-contenido{
+    font-size: 24px;
+}
+
+/*div mostrar destinos*/
+.mostrar-destinos{
+    display: grid;
+    text-align: center;
+    background-color: rgb(129, 204, 218);
+    padding: 20px ;
+    margin: 40px 200px 40px 200px;
+    border-radius: 5px;
+}
+
+.formulario{
+    background-image: url(https://andresbriones.cl/wp-content/uploads/2019/08/andres_briones_santiago_atardecer_cordillera_andes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    opacity: 1;
+    box-shadow: 0 5px 15px rgba(0, 0, 0,.5);
+    
+}
+.destiny-form{
+    background-color: rgba(112, 161, 224, 0.3);
+    font-weight: bold;
+    border-radius: 0.6em;
+   }
+
+/*boton cerrar modal*/
+.close {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    border: 0!important;
+    background-color: #d4dad8;
+    margin: -4px -4px -1rem auto;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*paquetes turísticos*/
+.card{
+    transition: all 0.3s;
+}
+
+.card:hover{transform: scale(1.15);}
+
+.card h3 a{
+    font-size: large;
+    text-decoration: none;
+    
+}
+
+.card img{
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/*ofertas especiales*/
+.information{
+    background-color: rgb(73, 147, 216);
+    border-radius: 0.2em; 
+}
+
+.driver-text{
+    color: aliceblue;
+}
+
+/*footer*/
+footer{
+    background-color: rgb(94, 81, 86);
+}
+
+.text-color {
+    color: rgb(209, 203, 203);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    text-align: center;
+    margin: 20px auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/*mostrar destinos*/
+ul {
+    
+    list-style: none;
+    padding: 10px;
+    margin: 20px auto;
+    width: 50%;
+    background: rgba(255, 255, 255, 2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0,.5);
+}
+
+li {
+    margin-top: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+button {
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #2b8b73;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  
+    background: rgba(255, 255, 255, 2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0,.5);
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #2b8b73;
+    color: #f9f9f9;
+   
+}
+tr:hover {
+    background-color: #dee7e7;
+   
+}
+	
+h4{
+    padding-bottom: 20px;
+}
